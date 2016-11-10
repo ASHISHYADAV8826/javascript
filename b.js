@@ -45,3 +45,21 @@ function fib()
 			}
 		}
 		fib();
+
+	var n=121,sum=0,r,temp;
+	temp=n
+	while(n>0)
+	{
+		r=n%10;
+		sum=(sum*10)+r;
+		n=Number.parseInt(n/10);
+	}
+	// console.log(sum)
+if(temp==sum)
+{
+	console.log("pallindrome")
+}
+else
+{
+	console.log("not pallindrome")
+}
