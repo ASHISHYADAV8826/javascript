@@ -5,7 +5,8 @@ var queue = (function(array) {
     var MAX_SIZE = 5;
 
     function isEmpty() {
-        if (array.length < 1) console.log("Queue is empty");
+        if (array.length < 1) 
+            console.log("Queue is empty");
     };
     isEmpty();
 

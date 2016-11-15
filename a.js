@@ -159,3 +159,4 @@ var a=40
 var b=32
 var c=(a>20&&b>40)
 console.log(c)
+
